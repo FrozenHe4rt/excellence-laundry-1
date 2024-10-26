@@ -112,17 +112,17 @@ export default function Home(props) {
 
   const initialLocale = props._nextI18Next.initialLocale;
   const titles = {
-    en: "Excellence Cleaners: Impeccable Cleaning Services for a Spotless Home",
-    fr: "Excellence Cleaners: Services de nettoyage impeccables pour une maison impeccable",
-    pt: "Excellence Cleaners: Serviços de limpeza impecáveis para uma casa impecável",
-    es: "Excellence Cleaners: Servicios de limpieza impecables para un hogar impecable",
+      en: "Excellence Laundry: Premium Laundry Services for Fresh, Clean Clothes",
+      fr: "Excellence Laundry: Services de blanchisserie premium pour des vêtements frais et propres",
+      pt: "Excellence Laundry: Serviços de lavanderia premium para roupas frescas e limpas",
+      es: "Excellence Laundry: Servicios de lavandería premium para ropa fresca y limpia",
   };
 
   const descriptions = {
-    en: "Experience top-notch cleaning services with Excellence Cleaners. We provide exceptional cleaning solutions, ensuring your home is spotless and gleaming.",
-    fr: "Découvrez des services de nettoyage de premier ordre avec Excellence Cleaners. Nous proposons des solutions de nettoyage exceptionnelles, garantissant une maison impeccable et étincelante.",
-    pt: "Experimente serviços de limpeza de primeira linha com a Excellence Cleaners. Oferecemos soluções de limpeza excepcionais, garantindo que sua casa esteja impecável e brilhando.",
-    es: "Experimente servicios de limpieza de primera clase con Excellence Cleaners. Brindamos soluciones de limpieza excepcionales, asegurando que su hogar esté impecable y reluciente.",
+      en: "Experience top-quality laundry services with Excellence Laundry. We ensure your clothes are fresh, clean, and carefully handled.",
+      fr: "Découvrez des services de blanchisserie de qualité supérieure avec Excellence Laundry. Nous garantissons des vêtements frais, propres et soigneusement traités.",
+      pt: "Experimente serviços de lavanderia de alta qualidade com Excellence Laundry. Garantimos que suas roupas estejam frescas, limpas e bem cuidadas.",
+      es: "Experimente servicios de lavandería de alta calidad con Excellence Laundry. Aseguramos que su ropa esté fresca, limpia y bien cuidada.",
   };
 
   return (
@@ -130,38 +130,38 @@ export default function Home(props) {
       <NextSeo
         title={titles[initialLocale]}
         description={descriptions[initialLocale]}
-        canonical="https://www.excellence-cleaners.com/"
+        canonical="https://www.excellence-laundry.com/"
         openGraph={{
-          url: "https://www.excellence-cleaners.com/",
+          url: "https://www.excellence-laundry.com/",
           title: titles[initialLocale],
           description: descriptions[initialLocale],
           images: [
             {
-              url: "https://excellence-cleaners.com/assets/images/img3.webp",
+              url: "https://excellence-laundry.com/assets/images/img3.webp",
               width: 800,
               height: 600,
-              alt: "Excellence cleaners",
+              alt: "Excellence laundry",
               type: "image/webp",
             },
           ],
-          site_name: "Excellence cleaners",
+          site_name: "Excellence laundry",
         }}
         languageAlternates={[
           {
             hrefLang: "fr",
-            href: "https://www.excellence-cleaners.com/fr/",
+            href: "https://www.excellence-laundry.com/fr/",
           },
           {
             hrefLang: "en",
-            href: "https://www.excellence-cleaners.com/en/",
+            href: "https://www.excellence-laundry.com/en/",
           },
           {
             hrefLang: "pt",
-            href: "https://www.excellence-cleaners.com/pt/",
+            href: "https://www.excellence-laundry.com/pt/",
           },
           {
             hrefLang: "es",
-            href: "https://www.excellence-cleaners.com/es/",
+            href: "https://www.excellence-laundry.com/es/",
           },
         ]}
       />

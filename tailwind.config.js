@@ -10,10 +10,10 @@ module.exports = {
       colors: {
         black: "#000000",
         white: "#ffffff",
-        color01: "#86D1E6",
-        color02: "#1D738B",
+        color01: "#89DC65",
+        color02: "#397D1C",
         color03: "#F5F5F2",
-        color04: "#5DB7D1",
+        color04: "#66C140",
         color05: "rgba(0, 0, 0, 0.015)",
         textBlack: "#333333",
 

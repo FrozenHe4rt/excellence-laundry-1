@@ -27,7 +27,7 @@ export default function Document() {
         </noscript>
 
         {/* Preload links */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/faviconIcon.ico" />
         <link rel="preload" href="/assets/images/logo.svg" as="image" />
         <link rel="preload" href="/assets/images/star-cleaners.webp" as="image" />
       </Head>

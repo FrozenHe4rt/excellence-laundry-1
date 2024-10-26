@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://excellence-cleaners.com
+Host: https://excellence-laundry.com
 
 # Sitemaps
-Sitemap: https://excellence-cleaners.com/sitemap.xml
+Sitemap: https://excellence-laundry.com/sitemap.xml

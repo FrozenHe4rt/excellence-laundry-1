@@ -297,5 +297,50 @@
   "thankYouTitle": "Your submission has been received!",
   "thankYouDescription": "We appreciate you getting in touch. Our team will review your message and respond as soon as possible.",
   "additionalInfo": "In the meantime, feel free to explore our website further.",
-  "goBackHome": "Go Back to Homepage"
+  "goBackHome": "Go Back to Homepage",
+
+    "plansSubtitle": "Our Flexible Plans for Every Need",
+  "plansTitle": "Choose Your Perfect Plan",
+
+  "plansItemOneTitle": "Basic Plan",
+  "plansItemOneDescription": "Ideal for individuals looking for essential features",
+  "plansItemOneArray": [
+    {"text": "Access to basic features"},
+    {"text": "24/7 customer support"},
+    {"text": "Limited storage capacity"},
+    {"text": "Monthly performance reports"}
+  ],
+
+  "plansItemTwoTitle": "Professional Plan",
+  "plansItemTwoDescription": "Perfect for small teams and growing businesses",
+  "plansItemTwoArray": [
+    {"text": "Everything in Basic Plan"},
+    {"text": "Extended storage capacity"},
+    {"text": "Advanced analytics"},
+    {"text": "Team collaboration tools"},
+    {"text": "Priority support"}
+  ],
+
+  "plansItemThreeTitle": "Enterprise Plan",
+  "plansItemThreeDescription": "Best for large enterprises with custom needs",
+  "plansItemThreeArray": [
+    {"text": "Everything in Professional Plan"},
+    {"text": "Unlimited storage"},
+    {"text": "Custom integrations"},
+    {"text": "Dedicated account manager"},
+    {"text": "On-site training and support"}
+  ],
+
+  "customSolutionTitle": "Tailored Solutions for Your Unique Needs",
+  "customSolutionDescription": "We offer custom solutions that align perfectly with your business requirements. Our team works with you to create the ideal setup.",
+  "customSolutionCTA": "Contact Us for a Custom Quote",
+
+  "rentalConditionsTitle": "Terms and Rental Conditions",
+  "rentalConditions": [
+    {"text": "Minimum contract duration of 12 months"},
+    {"text": "Early termination fees apply"},
+    {"text": "All fees are due on the 1st of each month"},
+    {"text": "Equipment maintenance covered by provider"},
+    {"text": "Cancellation requires 30-day notice"}
+  ]
 }

@@ -281,19 +281,19 @@ table {
 }
 
 .btn {
-  background: #1d738b;
+  background: #66C140;
 }
 
 .btn-secondary {
-  background: #305d69;
+  background: #48A720;
 }
 
 .btn:hover {
-  background-color: #14536c;
+  background-color: #59A838; /* Slightly darker than #66C140 */
 }
 
 .btn-secondary:hover {
-  background-color: #274d58;
+  background-color: #3C8E1D; /* Slightly darker than #48A720 */
 }
 
 .btn:active,

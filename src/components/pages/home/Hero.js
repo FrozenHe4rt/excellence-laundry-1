@@ -37,9 +37,9 @@ export default function Hero() {
           initial="hidden"
           animate={controls}
           variants={containerVariants}
-          className="flex flex-col md:grid md:grid-cols-[1fr_1fr]  gap-[24px] lg:gap-[80px]"
+          className="flex flex-col md:grid md:grid-cols-[1fr_1fr]"
         >
-          <div className="flex flex-col gap-[32px] py-[100px] px-[24px] lg:px-[80px] mx-auto max-w-[640px] md:max-w-full xl:mx-[0] xl:place-self-end xl:max-w-[520px] xl:px-[0]">
+          <div className="flex flex-col gap-[32px] py-[100px] px-[24px] lg:px-[32px] mx-auto max-w-[640px] md:max-w-full md:order-[1] xl:mx-[0]">
             <div className="flex flex-col gap-[24px]">
               <motion.div
                 variants={itemVariants}
@@ -69,7 +69,6 @@ export default function Hero() {
               {t("heroButton")}{" "}
             </motion.button>
           </div>
-
 
           <motion.div
             style={{
