@@ -180,6 +180,13 @@ export default function Home(props) {
           <Services />
           <Packs />
           <Faq />
+
+          <div
+            className={`bg-[url('/assets/images/img14.webp')] bg-cover bg-fixed curve relative overflow-hidden  border-y-[5px] border-solid border-color01`}
+          >
+            <div className="bg-white bg-opacity-[0.85] py-[200px]"></div>
+          </div>
+
           <div className="flex flex-col gap-[32px]">
             <ContactUpper />
             <ContactLower />
