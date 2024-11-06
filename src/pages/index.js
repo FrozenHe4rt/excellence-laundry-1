@@ -17,7 +17,6 @@ import AboutSkeleton from "@/components/skeleton-loaders/AboutSkeleton";
 import ServicesSkeleton from "@/components/skeleton-loaders/ServicesSkeleton";
 import PacksSkeleton from "@/components/skeleton-loaders/PacksSkeleton";
 import FaqSkeleton from "@/components/skeleton-loaders/FaqSkeleton";
-import AfterBeforeSkeleton from "@/components/skeleton-loaders/AfterBeforeSkeleton";
 import ContactUpperSkeleton from "@/components/skeleton-loaders/ContactUpperSkeleton";
 import ContactLowerSkeleton from "@/components/skeleton-loaders/ContactLowerSkeleton";
 
@@ -72,13 +71,6 @@ const Faq = dynamic(() => import("@/components/pages/home/Faq"), {
   loading: () => <FaqSkeleton />,
   ssr: false,
 });
-const AfterBefore = dynamic(
-  () => import("@/components/pages/home/AfterBefore"),
-  {
-    loading: () => <AfterBeforeSkeleton />,
-    ssr: false,
-  },
-);
 const ContactUpper = dynamic(
   () => import("@/components/pages/home/ContactUpper"),
   {
@@ -188,7 +180,6 @@ export default function Home(props) {
           <Services />
           <Packs />
           <Faq />
-          <AfterBefore />
           <div className="flex flex-col gap-[32px]">
             <ContactUpper />
             <ContactLower />
