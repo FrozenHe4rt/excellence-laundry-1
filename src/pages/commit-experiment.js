@@ -12,6 +12,8 @@ export default function ThankYou() {
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
 
+	console.log("Commit Experiment")
+	
 	return (
 		<div>
 			<NextSeo noindex={true} />
