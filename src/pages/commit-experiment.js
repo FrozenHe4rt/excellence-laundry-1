@@ -8,6 +8,8 @@ import { useRef } from "react";
 import { NextSeo } from "next-seo";
 
 export default function ThankYou() {
+	console.log("Testing Commit 123456789");
+
 	const { t } = useTranslation();
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
