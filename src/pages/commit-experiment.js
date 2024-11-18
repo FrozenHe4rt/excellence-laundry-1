@@ -8,7 +8,7 @@ import { useRef } from "react";
 import { NextSeo } from "next-seo";
 
 export default function ThankYou() {
-	console.log("Testing Commit 0323456789");
+	console.log("Testing Commit 245");
 
 	const { t } = useTranslation();
 	const ref = useRef(null);
